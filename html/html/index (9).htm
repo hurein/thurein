@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1>My First JavaScript</h1>
+<p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<script>
+function light(sw) {
+  var Image;
+  if (sw ==0) {
+    Image = "Image 3.jpg"
+  }  else {
+    Image = "Image 7.jpg"
+  }
+  document.getElementById('myImage').src = Image;
+}
+</script>
+
+<img id="myImage" src="Image 3.jpg" width="200" height="180">
+
+<p>
+<button type="button" onclick="light(0)">Photo 1</button>
+<button type="button" onclick="light(1)">Photo 2</button>
+</p>
+
+</body>
+</html>
+
