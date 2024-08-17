@@ -1,0 +1,38 @@
+<style type="text/css">
+body{
+	
+}
+.first{
+	border:2px solid black;
+	width:600px;
+	padding:50px;
+	background:lightgray;
+}
+.second{
+	border:1px solid black;
+}
+.third{
+	border:1px solid black;
+	margin-top:20px;
+	height:300px;
+	padding:10px;
+}
+.thirdd{
+	border:1px solid black;
+	padding:20px;
+	margin-left:36px;
+	width:470px;
+	background:white;
+}
+.divone{
+	border:1px solid black;
+	margin-left:40px;
+	width:500px;
+	padding:10px;
+}
+.divtwo{
+	border:1px solid black;
+	width:400px;
+	padding:10px;
+	margin-top:10px;
+}
