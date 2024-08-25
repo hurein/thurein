@@ -1,0 +1,74 @@
+<style type="text/css">
+*{
+	
+}
+.nav{
+	overflow-x:scroll;
+	height:80px;
+	width:100%;
+	background:rgb(77,164,71);
+}
+.sixth{
+	position:absolute;
+	top:62%;
+	left:50%;
+}
+.fixth{
+	border:5px ridge black;
+	width:1230px;
+	margin-top:10px;
+}
+.fourth{
+	border:5px ridge black;
+	width:1230px;
+	margin-top:10px;
+}
+.third{
+	position:absolute;
+	border:5px ridge black;
+	width:350px;
+	height:530px;
+	padding:15px;
+	top:137px;
+	left:850px;
+}
+.second{
+	position:absolute;
+	border:5px ridge black;
+	width:350px;
+	height:530px;
+	padding:15px;
+	top:137px;
+	left:425px;
+}
+.first{
+	border:5px ridge black;
+	width:350px;
+	height:530px;
+	padding:15px;
+	
+}
+li{
+	padding:10px;
+}
+body{
+	background: rgb(77,164,71);
+	color:white;
+	position:relative;
+}
+a{
+	float:left;
+	text-decoration:none;
+	background:rgb(77,164,71);
+	border-radius:5px;
+	padding:10px;
+	color:white;
+}
+a:hover{
+	background:black;
+}
+p{
+	width:150%;
+}
+
+</style>
