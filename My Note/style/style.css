@@ -18,17 +18,17 @@
 	top:62%;
 	left:50%;
 }
-.fixth{
+.fixths{
 	border:5px ridge black;
 	width:1230px;
 	margin-top:10px;
 }
-.fourth{
+.fourths{
 	border:5px ridge black;
 	width:1230px;
 	margin-top:10px;
 }
-.third{
+.thirds{
 	position:absolute;
 	border:5px ridge black;
 	width:350px;
@@ -76,7 +76,7 @@ p{
 	width:150%;
 }
 @media only screen and (max-width: 600px) {
-  * {
+  [class*="s"] {
     background-color: lightblue;
 	  width:100%;
   }
