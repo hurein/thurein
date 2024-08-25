@@ -76,8 +76,9 @@ p{
 	width:150%;
 }
 @media only screen and (max-width: 600px) {
-  body {
+  * {
     background-color: lightblue;
+	  width:100%;
   }
 
 </style>
