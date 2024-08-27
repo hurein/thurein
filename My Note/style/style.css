@@ -4,8 +4,7 @@
 }
 [class*="s"]{
 	padding:10px;
-	float:left;
-	width:33%;
+	width:15%;
 }
 .nav{
 	overflow-x:scroll;
