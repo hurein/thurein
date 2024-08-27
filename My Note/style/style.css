@@ -2,6 +2,11 @@
 *{
 	
 }
+[class*="s"]{
+	padding:10px;
+	float:left;
+	width:33%;
+}
 .nav{
 	overflow-x:scroll;
 	height:80px;
@@ -70,5 +75,9 @@ a:hover{
 p{
 	width:150%;
 }
+@media only screen and (max-width:768px) {
+	[class*="s"] {
+		width:100%;
+	}
 
 </style>
