@@ -1,10 +1,6 @@
 <style type="text/css">
 *{
-	
-}
-.row{
-	width:10%;
-	padding:15px;
+
 }
 .nav{
 	overflow-x:scroll;
@@ -27,7 +23,7 @@
 	width:1230px;
 	margin-top:10px;
 }
-.third{
+.thirds{
 	position:absolute;
 	border:5px ridge black;
 	width:350px;
@@ -36,7 +32,7 @@
 	top:137px;
 	left:850px;
 }
-.econd{
+.second{
 	position:absolute;
 	border:5px ridge black;
 	width:350px;
@@ -45,7 +41,7 @@
 	top:137px;
 	left:425px;
 }
-.firdt{
+.first{
 	border:5px ridge black;
 	width:350px;
 	height:530px;
@@ -75,7 +71,7 @@ p{
 	width:150%;
 }
 @media only screen and (max-width:768px) {
-	.row {
+	 {
 		width:100%;
 	}
 
