@@ -2,11 +2,9 @@
 *{
 	
 }
-[class*="d"]{
-	width:5%;
-}
-[class*="s"]{
-	width:5%;
+.row{
+	width:10%;
+	padding:15px;
 }
 .nav{
 	overflow-x:scroll;
@@ -77,7 +75,7 @@ p{
 	width:150%;
 }
 @media only screen and (max-width:768px) {
-	[class*="s"] [class*="d"] {
+	.row {
 		width:100%;
 	}
 
