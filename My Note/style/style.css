@@ -2,6 +2,9 @@
 *{
 	
 }
+[class*="d"]{
+	width:5%;
+}
 [class*="s"]{
 	padding:10px;
 	width:15%;
@@ -27,7 +30,7 @@
 	width:1230px;
 	margin-top:10px;
 }
-.thirds{
+.third{
 	position:absolute;
 	border:5px ridge black;
 	width:350px;
@@ -36,7 +39,7 @@
 	top:137px;
 	left:850px;
 }
-.second{
+.econd{
 	position:absolute;
 	border:5px ridge black;
 	width:350px;
@@ -45,7 +48,7 @@
 	top:137px;
 	left:425px;
 }
-.first{
+.firdt{
 	border:5px ridge black;
 	width:350px;
 	height:530px;
@@ -75,7 +78,7 @@ p{
 	width:150%;
 }
 @media only screen and (max-width:768px) {
-	[class*="s"] {
+	[class*="s"] [class*="d"] {
 		width:100%;
 	}
 
